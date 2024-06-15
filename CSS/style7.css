@@ -38,7 +38,7 @@
 @media(max-width:440px){
     .skill-title{
         font-size: 48px;
-        letter-spacing: 4px;
+        letter-spacing: 2px;
     }
     .skill-first-line-mobile,.skill-second-line-mobile,.skill-third-line-mobile{
         gap:16px;
@@ -52,7 +52,7 @@
 @media(max-width:440px){
     .project-headline{
         font-size: 48px;
-        letter-spacing: 4px;
+        letter-spacing: 2px;
     }
     .project-card{
         padding: 16px;
@@ -72,7 +72,7 @@
 @media(max-width:440px){
     .contact-title{
         font-size: 48px;
-        letter-spacing: 4px;
+        letter-spacing: 2px;
     }
     
     body{
