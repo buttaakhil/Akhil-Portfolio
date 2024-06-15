@@ -59,10 +59,35 @@ for(let obj of gotoGitHub){
     });
 }
 
-
 const emailForm=document.querySelector(".email-form");
 const inputForm=document.querySelector(".idea-input");
 emailForm.addEventListener("submit",(event)=>{
     event.preventDefault();
     inputForm.value="";
 })
+
+document.addEventListener('DOMContentLoaded', function() {
+    const links = document.querySelectorAll('.smooth-scroll');
+
+    for (const link of links) {
+        link.addEventListener('click', function(e) {
+            e.preventDefault();
+
+            const targetID = this.getAttribute('href');
+            const targetSection = document.querySelector(targetID);
+
+            targetSection.scrollIntoView({
+                behavior: 'smooth'
+            });
+
+
+            history.replaceState(null, null, targetID);
+        });
+    }
+    
+    window.addEventListener('popstate', function() {
+        if (history.length <= 1) {
+            window.close();
+        }
+    });
+});
