@@ -49,6 +49,7 @@
 @media(max-width:1064px){
     .skill-title{
         font-size: 96px;
+        letter-spacing: 6px;
     }
     .skill-subtitle{
         font-size: 16px;
@@ -78,6 +79,7 @@
     }
     .project-headline{
         font-size: 96px;
+        letter-spacing: 6px;
     }
     .project-subheadline{
         font-size: 16px;
@@ -112,6 +114,7 @@
 @media(max-width:1064px){
     .contact-title{
         font-size: 96px;
+        letter-spacing: 6px;
     }
     .contact-subtitle{
         font-size: 16px;
@@ -155,6 +158,7 @@
 @media(max-width:640px){
     .project-headline{
         font-size: 56px;
+        letter-spacing: 4px;
     }
     .project-subheadline{
         font-size: 12px;
@@ -187,6 +191,7 @@
 @media(max-width:640px){
     .contact-title{
         font-size: 56px;
+        letter-spacing: 4px;
     }
     .contact-subtitle{
         font-size: 12px;
@@ -220,6 +225,7 @@
 @media(max-width:640px){
     .skill-title{
         font-size: 56px;
+        letter-spacing: 4px;
     }
     .skill-subtitle{
         font-size: 12px;
@@ -296,7 +302,6 @@
     }
     .below-quote-text-tab{
         font-size: 14px;
-        /* font-weight: 300; */
         line-height: 20px;
     }
     .quote-icon-tab img{
@@ -317,4 +322,3 @@
         margin-bottom: 32px;
     }
 }
-
