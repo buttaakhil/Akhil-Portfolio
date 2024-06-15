@@ -1,0 +1,88 @@
+/* Home section */
+@media(max-width:440px){
+    .main-nav{
+        display: none;
+    }
+    .phone-nav{
+        display: flex;
+        justify-content: space-between;
+    }
+    .hello-vector{
+        height: 25px;
+    }
+    .greeting p{
+        padding: 8px 12px;
+    }
+    .intro .intro-first-line,.intro .my-name,.intro .intro-second-line{
+        font-size: 36px;
+    }
+    .lines-vector{
+        transform: scale(0.512);
+    }
+    .akhil-image{
+        height: 192px;
+        width: 298px;
+    }
+    .below-quote-text-tab{
+        font-size: 12px;
+    }
+    .leetcode-link{
+        font-size: 20px;
+    }
+    .linkedin-link{
+        font-size: 20px;
+    }
+}
+
+/* skills section */
+@media(max-width:440px){
+    .skill-title{
+        font-size: 48px;
+        letter-spacing: 4px;
+    }
+    .skill-first-line-mobile,.skill-second-line-mobile,.skill-third-line-mobile{
+        gap:16px;
+    }
+    .skill-card-mobile img{
+        transform: scale(0.512);
+    }
+}
+
+/* project section */
+@media(max-width:440px){
+    .project-headline{
+        font-size: 48px;
+        letter-spacing: 4px;
+    }
+    .project-card{
+        padding: 16px;
+    }
+    .project-title{
+        font-size: 24px;
+    }
+    .project-description{
+        font-size: 14px;
+    }
+    .tech-text{
+        font-size: 14px;
+    }
+}
+
+/* contact-section */
+@media(max-width:440px){
+    .contact-title{
+        font-size: 48px;
+        letter-spacing: 4px;
+    }
+    
+    body{
+        padding: 16px;
+    }
+    .email-above-total-text{
+        font-size: 16px;
+    }
+    .email-form input{
+        width: 32px;
+        font-size: 12px;
+    }
+}

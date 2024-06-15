@@ -1,0 +1,292 @@
+.nav-options{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 8px 16px;
+
+
+    border-radius: 72px;
+    border: 0.4px solid #FFF;
+    background: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(7.5px);
+}
+
+.nav-options a{
+    text-decoration: none;
+    display: flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 60px;
+}
+
+
+.nav-options .akhl-icon{
+    padding: 0;
+    background: #A22FFF;
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+}
+
+.main-nav{
+    margin-bottom: 64px;
+}
+
+.intro p{
+    color: #FFF;
+    text-align: center;
+    font-family: Urbanist;
+    font-size: 95.566px;
+    font-weight: 600;
+    line-height: 100%; 
+    letter-spacing: -1.433px;
+}
+
+.intro .my-name{
+    background: linear-gradient(91deg, #FFF 4%, #A22FFF 40%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Urbanist;
+    font-size: 95.566px;
+    font-weight: 600;
+    line-height: 100%;
+}
+
+.greeting{
+    display: flex;
+    justify-content: center;
+    margin: 16px;
+}
+
+.greeting p{
+    display: inline;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 12px 24px;
+
+    border-radius: 40px;
+    border: 1.275px solid #FFF;
+    background: rgba(255, 255, 255, 0.10);
+    position: relative;
+}
+
+.hello-vector{
+    position: absolute;
+    top: -24px;
+    right: -24px;
+}
+
+.intro-second-line{
+    display: inline;
+}
+
+.vector-plus-text{
+    display: flex;
+    justify-content: center;
+}
+
+.intro-second-line{
+    position: relative;
+}
+
+.lines-vector{
+    position: absolute;
+    bottom: -64px;
+    left: -56px;
+}
+
+.akhil-image-outbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.below-quote-text{
+    color: white;
+    font-family: Poppins;
+    font-size: 17.2px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.quote-icon-and-text{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.akhil-image{
+    flex: 2;
+}
+.srm-image{
+    height: 40px;
+    width: 40px;
+}
+
+.srm-first-line{
+    color: var(--white, #FFF);
+    font-family: Urbanist;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.srm-second-line{
+    color: var(--white, #FFF);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.about-srm{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.home-section{
+    margin-bottom: 120px;
+}
+
+.linkedin-link{
+    color: var(--white, #FFF);
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+
+    border-radius: 32px;
+    border: 0.5px solid var(--Gray-300, #D0D5DD);
+    background-color: #A22FFF;
+}
+
+.arrow-image{
+    height: 32px;
+    width: 32px;
+}
+
+.akhil-image-below-link{
+    display: flex;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    border-radius: 50px;
+    border: 2px solid #767676;
+    background: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(7.5px);
+}
+
+.leetcode-link{
+    color: #A9A9A9;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.36px;
+    text-decoration: none;
+
+    padding: 8px 16px;
+
+    border-radius: 32px;
+    
+}
+
+.linkedin-link-leetcode-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.below-linkedin-tab{
+    display: none;
+}
+
+.below-quote-text-tab{
+    color: var(--white, #FFF);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    font-weight: 300;
+}
+
+.srm-image-tab{
+    height: 40px;
+    width: 40px;
+}
+
+.quote-icon-and-text-tab{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 30%;
+}
+
+.about-srm-tab{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.srm-first-line-tab{
+    color: var(--white, #FFF);
+    font-family: Urbanist;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.srm-second-line-tab{
+    color: var(--white, #FFF);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.main-nav{
+    display: flex;
+    justify-content: center;
+}
+.nav-options{
+    position: fixed;
+    top: 32px;
+    width: 80%;
+    margin: 0px auto;
+    z-index: 100;
+}
+
+.greeting{
+    margin-top: 120px;
+}
+
+.phone-nav{
+    display: none;
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+}

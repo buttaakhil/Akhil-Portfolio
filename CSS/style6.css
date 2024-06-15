@@ -1,0 +1,91 @@
+.akhil{
+    color: #FFF;
+    font-family: Urbanist;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.butta{
+    color: #868686;
+    font-family: Urbanist;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.mylogo-myname{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+
+.mylogo{
+    height: 40px;
+    width: 40px;
+    background-color: #A22FFF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.mylogo img{
+    width: 24px;
+}
+
+.show-hambargar{
+    height: 40px;
+    width: 40px;
+}
+
+.phone-nav-outer{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.phone-nav{
+    position: fixed;
+    top: 24px;
+    width: 92%;
+    z-index: 10;
+}
+
+.after-click-nav a{
+    color: var(--white, #FFF);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 48px;
+    width: 80%;
+    text-align: center;
+}
+
+.after-click-nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 16px 0px ;
+    position: fixed;
+    top: 24px;
+    z-index: 20;
+    border-radius: 0px 0px 16px 16px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    background: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(30px);
+    width: 90%;
+}
+
+.after-click-nav img{
+    height: 40px;
+    width: 40px;
+}
+
+.outer-after-click-nav{
+    position: relative;
+    display: none;
+    justify-content: center;
+}
