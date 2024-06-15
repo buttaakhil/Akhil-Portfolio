@@ -1,14 +1,14 @@
 .akhil{
     color: #FFF;
     font-family: Urbanist;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 800;
 }
 
 .butta{
     color: #868686;
     font-family: Urbanist;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 400;
 }
 
@@ -20,8 +20,8 @@
 
 
 .mylogo{
-    height: 40px;
-    width: 40px;
+    height: 32px;
+    width: 32px;
     background-color: #A22FFF;
     border-radius: 50%;
     display: flex;
@@ -31,12 +31,12 @@
 }
 
 .mylogo img{
-    width: 24px;
+    width: 20px;
 }
 
 .show-hambargar{
-    height: 40px;
-    width: 40px;
+    height: 32px;
+    width: 32px;
 }
 
 .phone-nav-outer{
@@ -47,8 +47,13 @@
 .phone-nav{
     position: fixed;
     top: 24px;
-    width: 92%;
+    width: 80%;
     z-index: 10;
+    padding: 8px 16px;
+    border-radius: 72px;
+    border: 0.4px solid #FFF;
+    background: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(7.5px);
 }
 
 .after-click-nav a{
