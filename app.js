@@ -9,6 +9,11 @@ for(let obj of navOption){
 }
 
 const phoneNavOptions=document.querySelectorAll(".phone-nav-options");
+const closeHam=document.querySelector(".close-hambargar");
+const navListPhone=document.querySelector(".outer-after-click-nav");
+const openHam=document.querySelector(".show-hambargar");
+const TopnavPhone=document.querySelector(".phone-nav-outer");
+
 for(let obj of phoneNavOptions){
     obj.addEventListener("mouseover",()=>{
         obj.style.backgroundColor="#A22FFF";
@@ -16,12 +21,11 @@ for(let obj of phoneNavOptions){
     obj.addEventListener("mouseout",()=>{
         obj.style.backgroundColor="";
     })
+    obj.addEventListener("click",()=>{
+        navListPhone.style.display="none";
+        TopnavPhone.style.display="flex";
+    })
 }
-
-const closeHam=document.querySelector(".close-hambargar");
-const navListPhone=document.querySelector(".outer-after-click-nav");
-const openHam=document.querySelector(".show-hambargar");
-const TopnavPhone=document.querySelector(".phone-nav-outer");
 
 closeHam.addEventListener("click",()=>{
     navListPhone.style.display="none";
@@ -46,7 +50,6 @@ for(let obj of visitSite){
         obj.style.color="#A22FFF";
     });
 }
-
 
 for(let obj of gotoGitHub){
     obj.addEventListener("mouseover",()=>{
