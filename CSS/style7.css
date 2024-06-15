@@ -13,6 +13,9 @@
     .greeting p{
         padding: 8px 12px;
     }
+    .greeting{
+        margin-top: 104px;
+    }
     .intro .intro-first-line,.intro .my-name,.intro .intro-second-line{
         font-size: 36px;
     }
