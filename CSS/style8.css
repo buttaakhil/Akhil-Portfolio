@@ -1,6 +1,4 @@
-.projects-section,.skills-section,.contact-section{
-    overflow-x:clip;
-}
+
 .project-card{
     animation: appear linear;
     animation-timeline: view();
@@ -9,24 +7,6 @@
 
 .skill-all-lines{
     animation: appeartwo linear;
-    animation-timeline: view();
-    animation-range: entry 0% cover 40%;
-}
-
-.skill-title-and-subtitle{
-    animation: appearsix linear;
-    animation-timeline: view();
-    animation-range: entry 0% cover 40%;
-}
-
-.projects-title-and-subtitle{
-    animation: appearnine linear;
-    animation-timeline: view();
-    animation-range: entry 0% cover 40%;
-}
-
-.contact-title-and-subtitle{
-    animation: appeartwelve linear;
     animation-timeline: view();
     animation-range: entry 0% cover 40%;
 }
@@ -45,41 +25,11 @@
         animation-timeline: view();
         animation-range: entry 0% cover 40%;
     }
-    .skill-title-and-subtitle{
-        animation: appearseven linear;
-        animation-timeline: view();
-        animation-range: entry 0% cover 40%;
-    }
-    .projects-title-and-subtitle{
-        animation: appearten linear;
-        animation-timeline: view();
-        animation-range: entry 0% cover 40%;
-    }
-    .contact-title-and-subtitle{
-        animation: appearthirteen linear;
-        animation-timeline: view();
-        animation-range: entry 0% cover 40%;
-    }
 }
 
 @media(max-width:440px){
     .skill-all-lines-mobile{
         animation: appearfive linear;
-        animation-timeline: view();
-        animation-range: entry 0% cover 40%;
-    }
-    .skill-title-and-subtitle{
-        animation: appeareight linear;
-        animation-timeline: view();
-        animation-range: entry 0% cover 40%;
-    }
-    .projects-title-and-subtitle{
-        animation: appeareleven linear;
-        animation-timeline: view();
-        animation-range: entry 0% cover 40%;
-    }
-    .contact-title-and-subtitle{
-        animation: appearfourteen linear;
         animation-timeline: view();
         animation-range: entry 0% cover 40%;
     }
@@ -137,105 +87,5 @@
     to{
         opacity: 1;
         transform: translateY(0px);
-    }
-}
-
-@keyframes appearsix{
-    from{
-        opacity: 0;
-        transform: translateX(-440px);
-    }
-    to{
-        opacity: 1;
-        transform: translateX(0px);
-    }
-}
-
-@keyframes appearseven{
-    from{
-        opacity: 0;
-        transform: translateX(-280px);
-    }
-    to{
-        opacity: 1;
-        transform: translateX(0px);
-    }
-}
-
-@keyframes appeareight{
-    from{
-        opacity: 0;
-        transform: translateX(-220px);
-    }
-    to{
-        opacity: 1;
-        transform: translateX(0px);
-    }
-}
-
-@keyframes appearnine{
-    from{
-        opacity: 0;
-        transform: translateX(640px);
-    }
-    to{
-        opacity: 1;
-        transform: translateX(0px);
-    }
-}
-
-
-@keyframes appearten{
-    from{
-        opacity: 0;
-        transform: translateX(480px);
-    }
-    to{
-        opacity: 1;
-        transform: translateX(0px);
-    }
-}
-
-@keyframes appeareleven{
-    from{
-        opacity: 0;
-        transform: translateX(320px);
-    }
-    to{
-        opacity: 1;
-        transform: translateX(0px);
-    }
-}
-
-@keyframes appeartwelve{
-    from{
-        opacity: 0;
-        transform: translateX(-600px);
-    }
-    to{
-        opacity: 1;
-        transform: translateX(0px);
-    }
-}
-
-@keyframes appearthirteen{
-    from{
-        opacity: 0;
-        transform: translateX(-480px);
-    }
-    to{
-        opacity: 1;
-        transform: translateX(0px);
-    }
-}
-
-@keyframes appearfourteen{
-    from{
-        opacity: 0;
-        transform: translateX(-320px);
-    }
-    to{
-        opacity: 1;
-        transform: translateX(0px);
     }
 }
