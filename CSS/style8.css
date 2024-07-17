@@ -1,3 +1,6 @@
+.projects-section,.skills-section,.contact-section{
+    overflow-x:clip;
+}
 
 .project-card{
     animation: appear linear;
@@ -11,11 +14,34 @@
     animation-range: entry 0% cover 40%;
 }
 
+.skill-title-and-subtitle{
+    animation: appearsix linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+.projects-title-and-subtitle{
+    animation: appearnine linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+.contact-title-and-subtitle{
+    animation: appeartwelve linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
 @media(max-width:1064px){
     .skill-all-lines{
         animation: appearthree linear;
         animation-timeline: view();
         animation-range: entry 0% cover 40%;
+    }
+    .projects-section,.skills-section,.contact-section{
+        animation: none !important  ;
+        animation-timeline: none;
+        animation-range: none;
     }
 }
 
@@ -27,13 +53,6 @@
     }
 }
 
-@media(max-width:440px){
-    .skill-all-lines-mobile{
-        animation: appearfive linear;
-        animation-timeline: view();
-        animation-range: entry 0% cover 40%;
-    }
-}
 
 @keyframes appear{
     from{
@@ -79,13 +98,39 @@
     }
 }
 
-@keyframes appearfive{
+
+@keyframes appearsix{
     from{
         opacity: 0;
-        transform: translateY(120px);
+        transform: translateX(-440px);
     }
     to{
         opacity: 1;
-        transform: translateY(0px);
+        transform: translateX(0px);
     }
 }
+
+@keyframes appearnine{
+    from{
+        opacity: 0;
+        transform: translateX(640px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+
+
+@keyframes appeartwelve{
+    from{
+        opacity: 0;
+        transform: translateX(-600px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
