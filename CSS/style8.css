@@ -38,12 +38,13 @@
         animation-timeline: view();
         animation-range: entry 0% cover 40%;
     }
-    .projects-section,.skills-section,.contact-section{
-        animation: none !important  ;
+    .skill-title-and-subtitle,.projects-title-and-subtitle,.contact-title-and-subtitle{
+        animation: none;
         animation-timeline: none;
         animation-range: none;
     }
 }
+
 
 @media(max-width:640px){
     .skill-all-lines-mobile{
@@ -133,4 +134,3 @@
         transform: translateX(0px);
     }
 }
-
