@@ -9,11 +9,22 @@ for(let obj of navOption){
 }
 
 const phoneNavOptions=document.querySelectorAll(".phone-nav-options");
-const closeHam=document.querySelector(".close-hambargar");
 const navListPhone=document.querySelector(".outer-after-click-nav");
-const openHam=document.querySelector(".show-hambargar");
 const TopnavPhone=document.querySelector(".phone-nav-outer");
+const Hambar=document.querySelector(".Hambar");
+const phoneNavInside=document.querySelector(".phone-nav")
 
+Hambar.addEventListener("click",()=>{
+    phoneNavInside.classList.toggle("sharp-border-phone-nav");
+    if(Hambar.attributes.src.nodeValue=="Icons/show-hambargar.svg"){
+        Hambar.attributes.src.nodeValue="Icons/cancel-line.svg"
+        navListPhone.style.display="flex";
+    }
+    else{
+        Hambar.attributes.src.nodeValue="Icons/show-hambargar.svg";
+        navListPhone.style.display="none";
+    }
+})
 for(let obj of phoneNavOptions){
     obj.addEventListener("mouseover",()=>{
         obj.style.backgroundColor="#A22FFF";
@@ -26,16 +37,6 @@ for(let obj of phoneNavOptions){
         TopnavPhone.style.display="flex";
     })
 }
-
-closeHam.addEventListener("click",()=>{
-    navListPhone.style.display="none";
-    TopnavPhone.style.display="flex";
-});
-
-openHam.addEventListener("click",()=>{
-    navListPhone.style.display="flex";
-    TopnavPhone.style.display="none";
-});
 
 const visitSite=document.querySelectorAll(".visit-site");
 const gotoGitHub=document.querySelectorAll(".go-to-github");
@@ -74,6 +75,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     for (const link of links) {
         link.addEventListener('click', function(e) {
+            Hambar.attributes.src.nodeValue="Icons/show-hambargar.svg";
             e.preventDefault();
 
             const targetID = this.getAttribute('href');
