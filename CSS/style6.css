@@ -52,12 +52,14 @@
     padding: 8px 16px;
     border-radius: 72px;
     border: 0.4px solid #FFF;
-    background: rgba(255, 255, 255, 0.10);
+    background: #ffffff1a;
     backdrop-filter: blur(7.5px);
 }
 
 .sharp-border-phone-nav{
     border-radius:24px 24px 0px 0px;
+    background: #ffffff1a;
+    z-index: 200;
 }
 .after-click-nav a{
     color: var(--white, #FFF);
