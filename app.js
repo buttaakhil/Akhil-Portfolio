@@ -75,6 +75,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     for (const link of links) {
         link.addEventListener('click', function(e) {
+            phoneNavInside.classList.toggle("sharp-border-phone-nav");
             Hambar.attributes.src.nodeValue="Icons/show-hambargar.svg";
             e.preventDefault();
 
