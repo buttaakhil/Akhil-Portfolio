@@ -60,7 +60,7 @@
         object-fit: contain;
     }
     .skills-section{
-        padding-top: 96px;
+        padding-top: 104px;
     }
 }
 
@@ -103,7 +103,7 @@
         font-size: 18px;
     }
     .projects-section{
-        padding-top: 96px;
+        padding-top: 104px;
     }
 }
 
@@ -144,7 +144,7 @@
         height: 84px;
     }
     .contact-section{
-        padding-top: 96px;
+        padding-top: 104px;
     }
 
 }
