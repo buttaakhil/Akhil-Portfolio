@@ -27,9 +27,6 @@
     .linkedin-link-leetcode-link{
         margin-top: 16px;
     }
-    .home-section{
-        margin-bottom: 64px;
-    }
     .skill-all-lines{
         margin-top: 56px;
     }
@@ -63,7 +60,7 @@
         object-fit: contain;
     }
     .skills-section{
-        margin-bottom: 64px;
+        padding-top: 96px;
     }
 }
 
@@ -106,7 +103,7 @@
         font-size: 18px;
     }
     .projects-section{
-        margin-bottom: 64px;
+        padding-top: 96px;
     }
 }
 
@@ -145,6 +142,9 @@
     }
     .copy-right{
         height: 84px;
+    }
+    .contact-section{
+        padding-top: 96px;
     }
 
 }
@@ -323,3 +323,4 @@
         margin-bottom: 32px;
     }
 }
+
