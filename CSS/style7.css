@@ -49,6 +49,9 @@
     .skill-card-mobile img{
         transform: scale(0.512);
     }
+    .skills-section{
+        padding-top: 80px;
+    }
 }
 
 /* project section */
@@ -69,6 +72,9 @@
     .tech-text{
         font-size: 14px;
     }
+    .projects-section{
+        padding-top: 80px;
+    }
 }
 
 /* contact-section */
@@ -87,5 +93,8 @@
     .email-form input{
         width: 32px;
         font-size: 12px;
+    }
+    .contact-section{
+        padding-top: 80px;
     }
 }
