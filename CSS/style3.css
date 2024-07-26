@@ -1,4 +1,7 @@
 /* Contact section */
+.contact-section{
+    padding-top: 120px;
+}
 .contact-title{
     font-family: Urbanist;
     font-size: 120px;
