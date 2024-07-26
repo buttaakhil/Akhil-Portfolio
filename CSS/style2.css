@@ -1,7 +1,8 @@
 /* Skill-Section */
 .skills-section{
-    margin-bottom: 128px;
+    padding-top: 120px;
 }
+
 .skill-title{
     font-family: Urbanist;
     font-size: 120px;
