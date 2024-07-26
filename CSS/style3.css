@@ -1,0 +1,134 @@
+/* Contact section */
+.contact-section{
+    padding-top: 120px;
+}
+.contact-title{
+    font-family: Urbanist;
+    font-size: 120px;
+    font-weight: 900;
+    line-height: 100%;
+    letter-spacing: 8px;
+    background: linear-gradient(93deg, #FFF -46.98%, #7E00E4 97.46%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contact-subtitle{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.email-above-total-text{
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.email-above-color-text{
+    color: #B6F;
+}
+
+.email-box-and-text{
+    margin-top: 120px;
+}
+
+.email-line{
+    display: flex;
+    border-radius: 32px;
+    border: 0.64px solid #E4E7EC;
+    backdrop-filter: blur(4px);
+    padding:8px;
+    gap: 16px;
+    /* align-items: center; */
+    width: 60%;
+}
+
+.email-circle img{
+    height: 32px;
+    width: 32px;
+}
+
+.email-circle{
+    height: 48px;
+    width: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    border-radius: 50%;
+    background: #FFF;
+}
+
+.email-line input{
+    background-color:transparent;
+    border: none;
+    color: white;
+    flex: 2;
+    font-size: 16px;
+}
+
+.email-line input::placeholder{
+    color: #797979;
+    font-family: Urbanist;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.email-line button{
+    color: #FFF;
+    font-family: Urbanist;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 38.4px;
+    background-color: #A22FFF;
+    padding:12px 24px;
+    border: none;
+}
+
+.email-form{
+    display: flex;
+    justify-content: space-between;
+    flex: 2;
+    gap: 8px;
+}
+
+.email-box-and-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.social-media{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px;
+}
+
+.social-logo img{
+    height: 120px;
+    width: 120px;
+}
+
+.copy-right p{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 300;
+    
+}
+
+.copy-right{
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    background: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(30px);
+    height: 104px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

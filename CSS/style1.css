@@ -1,0 +1,144 @@
+/* Project-Section */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    min-height:100vh;
+    background-color: #060817;
+    padding: 24px 40px;
+}
+
+.projects-section{
+    padding-top: 120px;
+}
+
+.project-headline{
+    background: linear-gradient(93deg, #FFF -46.98%, #7E00E4 97.46%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Urbanist", sans-serif;
+    font-size: 120px;
+    font-weight: 900;
+    line-height: 100%; 
+    letter-spacing: 8px;
+    text-align: end;
+}
+
+.project-subheadline{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: end;
+    margin-bottom: 64px;
+}
+
+.project-number{
+    color: #C072FF;
+}
+
+.project-title-text{
+    color: #FFF;
+}
+
+.project-title{
+    display: flex;
+    gap: 24px;
+    font-family: Urbanist;
+    font-size: 46px;
+    line-height: 100%; 
+    letter-spacing: 2.76px;
+}
+
+.project-description{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 32px;
+}
+
+.tech-text{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.tech-content{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.project-text-and-img{
+    display: flex;
+    gap: 64px;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-img img{
+    width: 40vw;
+    object-fit:cover;
+    border-radius: 16px;
+}
+
+.project-card{
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    background: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(30px);
+    padding: 64px 128px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.project-links a{
+    text-decoration: none;
+    display: block;
+}
+
+.project-links{
+    display: flex;
+    gap: 32px;
+}
+
+.visit-site,.go-to-github{
+    color: #C072FF;
+    padding: 8px 16px;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.visit-site{
+    border: 1px solid #C072FF;
+}
+
+.project-all-text{
+    display: flex;
+    flex-direction: column;
+    gap:16px;
+}
+
+
+.project-all-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+.project-img img{
+    transition: all ease-in-out 0.5s;
+}
+
+.project-img img:hover{
+    opacity: 0.4;
+    box-shadow: 0px 0px 40px #a12fff66;
+}
